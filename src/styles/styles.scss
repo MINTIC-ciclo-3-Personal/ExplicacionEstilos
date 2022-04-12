@@ -1,0 +1,12 @@
+@import './colors.scss';
+@import './mixins.scss';
+
+.fondo1{
+    @include fondoDiv($micolor,$micolor2,$micolor3);
+}
+.fondo2{
+    @include fondoDiv($micolor3,$micolor,$micolor4);
+}
+.fondo3{
+    @include fondoDiv($micolor2,$micolor4,$micolor);
+}
